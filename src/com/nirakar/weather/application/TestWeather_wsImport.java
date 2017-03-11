@@ -12,7 +12,7 @@ import javax.xml.ws.Service;
 public class TestWeather_wsImport {
 	
 	public static void main(String args[]){
-		
+		System.out.println("Hi this is a test message :) ");
 		GlobalWeather globalWeather = new GlobalWeather();
 		GlobalWeatherSoap globalWeatherSoap=globalWeather.getGlobalWeatherSoap();
         System.out.println(globalWeatherSoap.getCitiesByCountry("United States"));

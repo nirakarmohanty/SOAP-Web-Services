@@ -18,7 +18,7 @@ import NET.webserviceX.www.GlobalWeatherSoap;
 public class TestWeather {
 
 	public static void main(String[] args) {
-
+		System.out.println("Hi this is a test message :) ");
 		GlobalWeatherLocator globalWeatherLocatorObject = new GlobalWeatherLocator();
 		GlobalWeatherSoap globalWeatherSoapStub = null;
 		String citiesList = "";
